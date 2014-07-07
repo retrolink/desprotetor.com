@@ -1,0 +1,119 @@
+2014-05-26 13:24:12,687 INFO desprotetor Iniciando aplicacao WSGI Desprotetor...
+2014-05-26 13:26:50,249 INFO desprotetor Iniciando aplicacao WSGI Desprotetor...
+2014-05-26 13:30:04,844 INFO desprotetor Iniciando aplicacao WSGI Desprotetor...
+2014-05-26 13:30:16,576 INFO desprotetor Iniciando aplicacao WSGI Desprotetor...
+2014-05-26 13:32:28,399 INFO desprotetor Iniciando aplicacao WSGI Desprotetor...
+2014-05-26 13:32:28,459 INFO desprotetor Sucesso para: 127.0.0.1 - https://dl.dropbox.com/u/67334204/GTA%20SA%20Advanced%20Mods/Awesome%20.IFP%20V3.rar
+2014-05-26 13:32:28,465 INFO desprotetor Sucesso para: 127.0.0.1 - http://adv.li/7390/http://yadi.sk/d/7_XmbSJA0AJk1
+2014-05-26 13:32:28,466 INFO desprotetor Sucesso para: 127.0.0.1 - http://bitshare.com/files/v4683jpy/DRalp.R5.D.A.avi.html
+2014-05-26 13:32:28,469 INFO desprotetor Falha para 127.0.0.1 - http://www.test.com.br?url=http://desprotetordelink.com
+2014-05-26 13:32:28,471 INFO desprotetor Sucesso para: 127.0.0.1 - http://www.correct.com
+2014-05-26 13:32:28,471 INFO desprotetor Sucesso para: 127.0.0.1 - http://www.correct.com
+2014-05-26 13:32:28,472 INFO desprotetor Sucesso para: 127.0.0.1 - http://bitshare.com/files/uqyg9173/LAD0B0MMMSCR.rar.html
+2014-05-26 13:32:28,473 INFO desprotetor Sucesso para: 127.0.0.1 - http://freakshare.com/files/tprai6zt/MF2OEdV.BD.Leg.rmvb.html
+2014-05-26 13:32:28,474 INFO desprotetor Sucesso para: 127.0.0.1 - http://www.correct.com
+2014-05-26 13:32:28,476 INFO desprotetor Sucesso para: 127.0.0.1 - http://www.correct.com
+2014-05-26 13:32:28,477 INFO desprotetor Sucesso para: 127.0.0.1 - http://turbobit.net/k4rykbo94x0i.html
+2014-05-26 13:37:24,137 INFO desprotetor Iniciando aplicacao WSGI Desprotetor...
+2014-05-26 13:37:24,157 INFO desprotetor Sucesso para: 127.0.0.1 - https://dl.dropbox.com/u/67334204/GTA%20SA%20Advanced%20Mods/Awesome%20.IFP%20V3.rar
+2014-05-26 13:37:24,162 INFO desprotetor Sucesso para: 127.0.0.1 - http://adv.li/7390/http://yadi.sk/d/7_XmbSJA0AJk1
+2014-05-26 13:37:24,163 INFO desprotetor Sucesso para: 127.0.0.1 - http://bitshare.com/files/v4683jpy/DRalp.R5.D.A.avi.html
+2014-05-26 13:37:24,165 INFO desprotetor Falha para 127.0.0.1 - http://www.test.com.br?url=http://desprotetordelink.com
+2014-05-26 13:37:24,167 INFO desprotetor Sucesso para: 127.0.0.1 - http://www.correct.com
+2014-05-26 13:37:24,168 INFO desprotetor Sucesso para: 127.0.0.1 - http://www.correct.com
+2014-05-26 13:37:24,169 INFO desprotetor Sucesso para: 127.0.0.1 - http://bitshare.com/files/uqyg9173/LAD0B0MMMSCR.rar.html
+2014-05-26 13:37:24,170 INFO desprotetor Sucesso para: 127.0.0.1 - http://freakshare.com/files/tprai6zt/MF2OEdV.BD.Leg.rmvb.html
+2014-05-26 13:37:24,171 INFO desprotetor Sucesso para: 127.0.0.1 - http://www.correct.com
+2014-05-26 13:37:24,173 INFO desprotetor Sucesso para: 127.0.0.1 - http://www.correct.com
+2014-05-26 13:37:24,174 INFO desprotetor Sucesso para: 127.0.0.1 - http://turbobit.net/k4rykbo94x0i.html
+2014-05-26 13:38:05,046 INFO desprotetor Iniciando aplicacao WSGI Desprotetor...
+2014-05-26 13:38:05,883 INFO desprotetor Sucesso para: 127.0.0.1 - http://www.multiupload.nl/9017CUC7AV
+2014-05-26 13:38:06,154 INFO desprotetor Sucesso para: 127.0.0.1 - http://www.gigasize.com/get.php?d=zzdrym6mz8b
+2014-05-26 13:38:10,282 INFO desprotetor Sucesso para: 127.0.0.1 - http://oron.com/hc7j185ibssd/AH_Final_Fantasy_VII_Advent_Children_Complete_5BBD_5D.part01.rar.html
+2014-05-26 13:38:10,915 INFO desprotetor Sucesso para: 127.0.0.1 - http://rapidshare.com/files/215142479/1996_-_Venus_Isle.rar
+2014-05-26 13:38:12,109 INFO desprotetor Sucesso para: 127.0.0.1 - http://depositfiles.com/files/t1xm9vyh2
+2014-05-26 13:38:12,667 INFO desprotetor Falha para 127.0.0.1 - http://adv.li/5r2
+2014-05-26 13:38:13,870 INFO desprotetor Sucesso para: 127.0.0.1 - http://www.predicta.net
+2014-05-26 13:38:14,715 INFO desprotetor Sucesso para: 127.0.0.1 - http://www37.zippyshare.com/v/46543982/file.html
+2014-05-26 13:38:15,664 ERROR desprotetor erro: 'NoneType' object has no attribute '__getitem__' -- http://www.link-protegido.com/semprefilmesv2/?link=6HCZL0W01X Soup: <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN"><html><head><title>Desprotetor de Link - Desprotegendo links de download!</title><meta content="Desprotetor de Link" name="author" /><meta name="google-site-verification" content="L2wQRiX0EAoLAb6vttOTeIGhqDZ50bTAmJpYE_MWEOM" /><meta content="Burlar Protetor de Link!" name="subject" /><meta content="Baixar sem precisar cadastrar seu celular ou ficar esperando naqueles chatos protetores de link! Desprotetor de Link, desprotegendo todos os links de download!" name="Description" /> <meta content="desprotetor de link,burlar protetor de link, baixar de graуa,remover link protegido,baixar sem precisar do celular,desprotetor,link,baixar" name="Keywords" /><meta content="INDEX,FOLLOW" name="Robots" /><meta content="INDEX,FOLLOW" name="googlebot" /> <meta content="INDEX,FOLLOW" name="msnbot" /> <link href="http://www.desprotetordelink.com/img/favicon.ico" rel="icon" type="image/x-icon" /><link href="http://www.desprotetordelink.com/img/favicon.ico" rel="shortcut icon" type="image/x-icon" /><link rel="stylesheet" type="text/css" media="all" href="estilo.css" /><style>body { background-image: url("img/fundo2.png"); background-repeat: repeat; background-position:top;background-position: 100% 0%;background-attachment: fixed; height:100%;}.menu{cursor:pointer;font-family:verdana} #ext td{ padding-left:5px;padding-right:5px;text-align:center;vertical-align:center }.share-button{font-family:verdana;font-size:8pt}#cabecalho{background: #FFFFFF url(img/fundo.gif) repeat-x; margin-top:10px;width:100%;height:100px;text-align:center;background-color:#f1f1f1;  border-bottom:1px solid #000000;  border-top:1px solid #000000;  margin-bottom:18px;}#rodape{  background: #FFFFFF url(img/fundo.gif) repeat-x; margin-bottom:10px; width:100%;height:50px; text-align:center;background-color:#f1f1f1; border-bottom:1px solid #000000; border-top:1px solid #000000;}</style><script type="text/javascript" src="funcoes1.js"></script><script type="text/javascript" src="funcoes3.js"></script></head><body onload="if(document.getElementById('link').value != ''){ document.getElementById('btn').click() }"><div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) {return;}
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/pt_BR/all.js#xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN"></body></html><html><head><title>Desprotetor de Link - Desprotegendo links de download!</title><meta content="Desprotetor de Link" name="author" /><meta name="google-site-verification" content="L2wQRiX0EAoLAb6vttOTeIGhqDZ50bTAmJpYE_MWEOM" /><meta content="Burlar Protetor de Link!" name="subject" /><meta content="Baixar sem precisar cadastrar seu celular ou ficar esperando naqueles chatos protetores de link! Desprotetor de Link, desprotegendo todos os links de download!" name="Description" /> <meta content="desprotetor de link,burlar protetor de link, baixar de graуa,remover link protegido,baixar sem precisar do celular,desprotetor,link,baixar" name="Keywords" /><meta content="INDEX,FOLLOW" name="Robots" /><meta content="INDEX,FOLLOW" name="googlebot" /> <meta content="INDEX,FOLLOW" name="msnbot" /> <link href="http://www.desprotetordelink.com/img/favicon.ico" rel="icon" type="image/x-icon" /><link href="http://www.desprotetordelink.com/img/favicon.ico" rel="shortcut icon" type="image/x-icon" /><link rel="stylesheet" type="text/css" media="all" href="estilo.css" /><style>body { background-image: url("img/fundo2.png"); background-repeat: repeat; background-position:top;background-position: 100% 0%;background-attachment: fixed; height:100%;}.menu{cursor:pointer;font-family:verdana} #ext td{ padding-left:5px;padding-right:5px;text-align:center;vertical-align:center }.share-button{font-family:verdana;font-size:8pt}#cabecalho{background: #FFFFFF url(img/fundo.gif) repeat-x; margin-top:10px;width:100%;height:100px;text-align:center;background-color:#f1f1f1;  border-bottom:1px solid #000000;  border-top:1px solid #000000;  margin-bottom:18px;}#rodape{  background: #FFFFFF url(img/fundo.gif) repeat-x; margin-bottom:10px; width:100%;height:50px; text-align:center;background-color:#f1f1f1; border-bottom:1px solid #000000; border-top:1px solid #000000;}</style><script type="text/javascript" src="funcoes1.js"></script><script type="text/javascript" src="funcoes3.js"></script></head><body onload="if(document.getElementById('link').value != ''){ document.getElementById('btn').click() }"><br /><center><span style="font-size:33pt;color:Red"><b>Desprotetor de Link</b></span><br /><br /><div style="font-family:verdana;font-size:15pt"><b>Link desprotegido: </b> <form action="semprefilmes.php" method="POST"><input type="hidden" value="http://goo.gl/sm8VPf" name="f" /><input type="hidden" name="k" value="5596" /><input type="hidden" name="v" value="29d65a6518b752f8c949e2bb3bd78a08" /><input type="submit" value="Mostrar Link" style="margin:10px;padding:10px;" /></form></div><br /><br /><br /><hr /><br /><br /><form action="index.php?auth=3c84cda4ae8daa8d77929b20dea880c3" method="GET" target="_top"><br />Deseja desproteger mais links? Digite abaixo:<br /> <input style="text-align:center;padding:5px;" type="text" size="80" name="link" id="link" onclick="this.select()" onkeydown="if(event.keyCode=='13'){ document.getElementById('despr').click()}" /><br /><br /> <input type="button" value="Desproteger" style="padding:5px" onclick="window.open('index.php?auth=3c84cda4ae8daa8d77929b20dea880c3&amp;link='+document.getElementById('link').value,'_top')" /><br /></form><br /><br /><table width="900px"><tr><td width="450px" align="center"><iframe src="http://promocoeshardbox.com.br/ifrm/ifrm_dp.php?c=ffffff" frameborder="0" width="352" height="83" style="border:1px dashed #b1b1b1"></iframe></td><td width="450px" align="center"><iframe src="http://promocoeshardbox.com.br/ifrm/ifrm_dp.php?c=ffffff" frameborder="0" width="352" height="83" style="border:1px dashed #b1b1b1"></iframe></td></tr></table><br /><br /><br /><div class="fb-like-box" style="background-color:#ffffff" data-href="http://www.facebook.com/desprotetor" data-width="200" data-height="90" data-show-faces="false" data-stream="false" data-header="false"></div></center><img src="http://whos.amung.us/swidget/fungfxb7zshf/" style="display:none" width="80" height="15" border="0" title="pessoas online" />
+<script language="JavaScript" type="text/javascript"> 
+  window.onbeforeunload = confirmExit; 
+  function confirmExit() 
+  { 
+    //return 'Este site foi Щtil pra vocЖ?\n\n Ajude-nos a manter o site sempre online.\n\nFaуa uma doaусo de qualquer valor,\nclicando no botao do pagSeguro no site.\n\nAs doaушes podem ser feitas atravжs de boleto bancрrio.';
+  } 
+
+</script>
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-775219-28']);
+  _gaq.push(['_trackPageview']);
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+</body>
+</html>
+
+2014-05-26 13:38:15,664 ERROR desprotetor Erro ao desproteger URL: http://www.link-protegido.com/semprefilmesv2/?link=6HCZL0W01X
+2014-05-26 13:38:15,664 ERROR desprotetor local variable 'ret' referenced before assignment
+Traceback (most recent call last):
+  File "/home/kron/Dropbox/code/Desprotetor.com/flask_version/flask_backend/desprotetor.py", line 80, in dep
+    return deprotect(request)
+  File "/home/kron/Dropbox/code/Desprotetor.com/flask_version/flask_backend/desprotetor.py", line 996, in deprotect
+    if x.checkCorrect(ret.strip()):
+UnboundLocalError: local variable 'ret' referenced before assignment
+2014-05-26 13:38:15,667 INFO desprotetor Blacklist para: desprotetor.com - http://desprotetor.com/
+2014-05-26 13:38:15,670 INFO desprotetor Sucesso para: 127.0.0.1 - http://www.correct.com
+2014-05-26 13:38:15,671 INFO desprotetor Sucesso para: 127.0.0.1 - http://www.correct.com
+2014-05-26 13:38:15,672 INFO desprotetor Sucesso para: 127.0.0.1 - http://www.correct.com
+2014-05-26 13:38:15,673 INFO desprotetor Sucesso para: 127.0.0.1 - http://www.correct.com
+2014-05-26 13:38:15,674 INFO desprotetor Sucesso para: 127.0.0.1 - http://www.correct.com
+2014-05-26 13:38:15,675 INFO desprotetor Sucesso para: 127.0.0.1 - http://www.correct.com
+2014-05-26 13:38:15,676 INFO desprotetor Sucesso para: 127.0.0.1 - http://www.correct.com
+2014-05-26 13:38:15,677 INFO desprotetor Sucesso para: 127.0.0.1 - http://www.correct.com
+2014-05-26 13:38:15,678 INFO desprotetor Sucesso para: 127.0.0.1 - http://ul.to/qtkxwfb8
+2014-05-26 13:38:15,679 INFO desprotetor Sucesso para: 127.0.0.1 - https://dl.dropbox.com/u/67334204/GTA%20SA%20Advanced%20Mods/Awesome%20.IFP%20V3.rar
+2014-05-26 13:38:15,680 INFO desprotetor Sucesso para: 127.0.0.1 - https://dl.dropbox.com/u/67334204/GTA%20SA%20Advanced%20Mods/Awesome%20.IFP%20V3.rar
+2014-05-26 13:38:15,681 INFO desprotetor Sucesso para: 127.0.0.1 - http://adv.li/7390/http://yadi.sk/d/7_XmbSJA0AJk1
+2014-05-26 13:38:15,682 INFO desprotetor Sucesso para: 127.0.0.1 - http://bitshare.com/files/v4683jpy/DRalp.R5.D.A.avi.html
+2014-05-26 13:38:15,685 INFO desprotetor Falha para 127.0.0.1 - http://www.test.com.br?url=http://desprotetordelink.com
+2014-05-26 13:38:15,687 INFO desprotetor Sucesso para: 127.0.0.1 - http://www.correct.com
+2014-05-26 13:38:15,687 INFO desprotetor Sucesso para: 127.0.0.1 - http://www.correct.com
+2014-05-26 13:38:15,688 INFO desprotetor Sucesso para: 127.0.0.1 - http://bitshare.com/files/uqyg9173/LAD0B0MMMSCR.rar.html
+2014-05-26 13:38:15,689 INFO desprotetor Sucesso para: 127.0.0.1 - http://freakshare.com/files/tprai6zt/MF2OEdV.BD.Leg.rmvb.html
+2014-05-26 13:38:15,691 INFO desprotetor Sucesso para: 127.0.0.1 - http://www.correct.com
+2014-05-26 13:38:15,692 INFO desprotetor Sucesso para: 127.0.0.1 - http://www.correct.com
+2014-05-26 13:38:15,693 INFO desprotetor Sucesso para: 127.0.0.1 - http://turbobit.net/k4rykbo94x0i.html
+2014-05-26 13:38:15,694 INFO desprotetor Sucesso para: 127.0.0.1 - http://www.fileserve.com/file/Wue5xEX
+2014-05-26 13:38:15,695 INFO desprotetor Sucesso para: 127.0.0.1 - http://www.filesonic.com/file/52102561/baixandolegal.org.by.ClaudinhoLeech.TBBT.02.05.rmvb
+2014-05-26 13:38:15,697 INFO desprotetor Sucesso para: 127.0.0.1 - http://fiberupload.com/1ejh2i7jbidm/SH3RL2.BDRip.LPark.Dub.rmvb.html
+2014-05-26 13:38:15,698 INFO desprotetor Sucesso para: 127.0.0.1 - http://rapidshare.com/files/285390404/Office.2003.ultralite_www.baixandolegal.org.rar
+2014-05-26 13:38:15,699 INFO desprotetor Sucesso para: 127.0.0.1 - http://www.megaupload.com/?d=VSNGU3TU
+2014-05-26 13:38:15,700 INFO desprotetor Sucesso para: 127.0.0.1 - http://www.correct.com
+2014-05-26 13:38:15,701 INFO desprotetor Sucesso para: 127.0.0.1 - http://www.4shared.com/file/hmbkpQ3m/Skin_Fria_Campe_-_wwwUNIAOBRAS.html
+2014-05-26 13:38:15,703 INFO desprotetor Sucesso para: 127.0.0.1 - http://www.megaupload.com/?d=VSNGU3TU
+2014-05-26 13:38:15,704 INFO desprotetor Sucesso para: 127.0.0.1 - http://depositfiles.com/files/cwfxkrzll
+2014-05-26 13:38:15,705 INFO desprotetor Sucesso para: 127.0.0.1 - http://sharefiles.co/vq2yj8iwtzzo/RELTWDS1.part4.rar.html
+2014-05-26 13:38:15,706 INFO desprotetor Sucesso para: 127.0.0.1 - http://www.fileserve.com/file/aWNwGK5
+2014-05-26 13:38:15,707 INFO desprotetor Sucesso para: 127.0.0.1 - http://www.4shared.com/rar/KXNad3v-/GOSPEL_MUSICA_UNITED__2013_par.html
+2014-05-26 13:38:15,708 INFO desprotetor Sucesso para: 127.0.0.1 - http://adv.li/7390/http://yadi.sk/d/7_XmbSJA0AJk1
+2014-05-26 13:38:21,550 INFO desprotetor Sucesso para: 127.0.0.1 - http://depositfiles.com/files/c7oao91su
+2014-05-26 13:38:21,553 INFO desprotetor Sucesso para: 127.0.0.1 - http://yess.me/ir/id/aHR0cDovL3Bhc3RlYmluLmNvbS9zQzhCM0FjeA==/
+2014-05-26 13:38:21,556 INFO desprotetor Sucesso para: 127.0.0.1 - https://hotfile.com/dl/177368873/77ba71a/therebels.neckel49.rar.html
+2014-05-26 13:38:21,558 INFO desprotetor Sucesso para: 127.0.0.1 - http://ul.to/xka8r92n/ACdS.BD.Dub.rmvb
+2014-05-26 13:38:21,561 INFO desprotetor Sucesso para: 127.0.0.1 - http://bitshare.com/files/06ttwonm/SUP.T05.E01.-.Dual.Audio.rar.html
+2014-05-26 13:38:21,564 INFO desprotetor Sucesso para: 127.0.0.1 - http://www.megaupload.com/?d=TKK921PN
+2014-05-26 13:38:21,565 INFO desprotetor Sucesso para: 127.0.0.1 - http://www.megaupload.com/?d=TKK921PN
+2014-05-26 13:38:21,566 INFO desprotetor Sucesso para: 127.0.0.1 - http://www.hitsmp3.net/cds-liberado.php?id=8500
+2014-05-26 13:38:21,567 INFO desprotetor Sucesso para: 127.0.0.1 - http://www.4shared.com/file/72118424/cd7a46f8/PushingDaisies2x05.html

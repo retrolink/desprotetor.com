@@ -1,0 +1,57 @@
+
+SocketPath /tmp/fcgidsock
+SharememPath /tmp/fcgid_shm
+
+
+<VirtualHost *:80>
+	ServerAdmin webmaster@localhost
+
+	DocumentRoot /var/www
+	<Directory />
+		Options FollowSymLinks
+		AllowOverride None
+	</Directory>
+
+
+	<Directory /var/www/>		
+		AllowOverride None
+		AddHandler cgi-script .py
+		Options +ExecCGI -MultiViews +SymLinksIfOwnerMatch
+		Order allow,deny
+		Allow from all
+	</Directory>
+
+
+
+        # ---- Configure WSGI Listener(s) ----
+
+        WSGIDaemonProcess flaskapp user=www-data group=www-data threads=5	        
+	WSGIScriptAlias /deprotect /home/ubuntu/flask_backend/dep.wsgi
+
+        <Directory "/home/ubuntu/flask_backend">
+		WSGIScriptReloading On
+                WSGIProcessGroup flaskapp
+                WSGIApplicationGroup %{GLOBAL}
+                Order deny,allow
+                Allow from all
+        </Directory>
+
+
+	ErrorLog ${APACHE_LOG_DIR}/error.log
+
+	# Possible values include: debug, info, notice, warn, error, crit,
+	# alert, emerg.
+	LogLevel warn
+
+	CustomLog ${APACHE_LOG_DIR}/access.log combined
+
+    Alias /doc/ "/usr/share/doc/"
+    <Directory "/usr/share/doc/">
+        Options Indexes MultiViews FollowSymLinks
+        AllowOverride None
+        Order deny,allow
+        Deny from all
+        Allow from 127.0.0.0/255.0.0.0 ::1/128
+    </Directory>
+
+</VirtualHost>

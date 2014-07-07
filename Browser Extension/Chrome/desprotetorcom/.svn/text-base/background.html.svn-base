@@ -1,0 +1,237 @@
+<html>
+<script>
+chrome.extension.onRequest.addListener(
+  function(request, sender, sendResponse) 
+  {
+    
+    if (request.activate_plugin == true) 
+    {
+       sendResponse({data: localStorage["extensions.gabuckets.apicode"],siteURI: localStorage["extensions.gabuckets.site_name"]});
+    }
+    
+    if (request.set_badge) 
+    {
+       chrome.browserAction.setBadgeText(request.set_badge)
+    }    
+    
+    if (request.update_total_buckets == true) 
+    {
+      localStorage["extensions.gabuckets.total_buckets"] = (localStorage["extensions.gabuckets.total_buckets"] + 1)
+      sendResponse({data: localStorage["extensions.gabuckets.total_buckets"]});
+    }
+    
+    if(request.get_clusters == true)
+    {
+      var api_code = localStorage["extensions.gabuckets.apicode"];
+      
+      var req = new XMLHttpRequest();  
+      req.open('POST', 'https://btbuckets.com/services/list_buckets/uk/'+api_code, true);
+      req.setRequestHeader('Content-Type','application/x-www-form-urlencoded');
+      var params = "";   
+   
+      req.onreadystatechange = function (aEvt) 
+      {  
+        if (req.readyState == 4) 
+        {  
+           if(req.status == 200) 
+           {
+             eval("var resp = " + req.responseText); 
+             if(typeof(resp.error_code) != "undefined")
+             {
+                alert("Fail to get your buckets: " + resp.error);
+                sendResponse({data: false});
+                return false;             
+             }
+             else
+             {
+                  var buckets_list = [];
+                  for(i = 0; i < resp.length; i++)
+                  {
+                     var addDefaultLabel = ""
+                     if(resp[i].default_cluster_id > 0)
+                     {
+                        addDefaultLabel = " (default)"
+                     }
+                     buckets_list.push({bucket_label:resp[i].bucket_name + addDefaultLabel, bucket_name:resp[i].friendly_name, bucket_id:resp[i].bucket_id});
+                  }  
+
+                  sendResponse({data: buckets_list});
+             }
+           }
+           else  
+           {
+             alert("Fail to get your buckets.");
+				 sendResponse({data: false});
+           }
+         }  
+       };
+      
+      req.send(params);
+    }
+    
+    if(request.submit_target == true)
+    {
+       var api_code = localStorage["extensions.gabuckets.apicode"];
+      
+      var req = new XMLHttpRequest();  
+      req.open('POST', 'https://btbuckets.com/services/add_target/uk/'+api_code, true);
+      req.setRequestHeader('Content-Type','application/x-www-form-urlencoded');
+      var params = "cluster_id="+request.cluster_id+"&target_name="+escape(request.target_name)+"&target_code="+escape(request.target_code);      
+      params +="&visit_maxruns=1&target_type_id=" + request.gtt;
+		
+      req.onreadystatechange = function (aEvt) 
+      {  
+        if (req.readyState == 4) 
+        {  
+           if(req.status == 200) 
+           {
+             eval("var resp = " + req.responseText); 
+             if(typeof(resp.error_code) != "undefined")
+             {
+                alert("Fail to integrate: " + resp.error);
+                sendResponse({data: false});
+                return false;             
+             }
+             else
+             {
+                  var successMessage = "The remarketing code will be executed when the user enters in the bucket " + request.bucket_name;
+                  alert("New target saved!\n" + successMessage);
+                  sendResponse({data: true});
+             }
+           }
+           else  
+           {
+             alert("Fail to integrate.");
+             sendResponse({data: false});
+             return false;
+           }
+         }  
+       };
+      
+      req.send(params);      
+
+      
+    }
+    
+    if(request.submit_bucket == true)
+    {
+      var api_code = localStorage["extensions.gabuckets.apicode"];
+           
+      if(request.gbn.length < 2)
+      {
+         alert("Please input a Bucket name");
+         sendResponse({data: false});
+         return false;
+      }      
+      
+      var req = new XMLHttpRequest();  
+      req.open('POST', 'https://btbuckets.com/services/create_ga_bucket/uk/'+api_code, true);
+      req.setRequestHeader('Content-Type','application/x-www-form-urlencoded');
+      var params = "gbi="+request.gbi+"&gbn="+request.gbn+"&gexp="+String(request.gexp).replace("%20","%2B").replace(/\s/g,"%2B").replace(/\+/g,"%2B");      
+
+      if(request.add_target == true)
+      {
+         params +="&htgc=1";
+         var finalTargetName = request.gtn + " " + request.gbn.substring(0,15);
+         params +="&target_name=" + finalTargetName
+         params +="&target_code=" + request.gtc 
+			params +="&target_type_id=" + request.gtt 
+
+         if(request.target_url.length > 0)
+         {       
+              for(i = 0; i < request.target_url.length; i++)
+              {
+                 myURLRegExp = "^" + request.target_url[i].replace(/\s/gi,"\\s").replace(/\./gi,"\\.").replace(/\\/gi,"\\").replace(/\-/gi,"\\-").replace(/\(/gi,"\\(").replace(/\)/gi,"\\)").replace(/\[/gi,"\\[").replace(/\]/gi,"\\]") + "$";
+                 params +="&target_url[]=" + escape(myURLRegExp)
+              }    
+         }         
+
+      }
+      
+      req.onreadystatechange = function (aEvt) 
+      {  
+        if (req.readyState == 4) 
+        {  
+           if(req.status == 200) 
+           {
+             eval("var resp = " + req.responseText); 
+             if(typeof(resp.error_code) != "undefined")
+             {
+                alert("Fail to get your buckets: " + resp.error);
+                sendResponse({data: false});
+                return false;             
+             }
+             else
+             {
+                  var successMessage = "The bucket will start working within 10 minutes of its creation!";
+                  localStorage["extensions.gabuckets.total_buckets"] = (Number(localStorage["extensions.gabuckets.total_buckets"]) + 1)
+                  alert("New Bucket saved!\n" + successMessage);
+                  sendResponse({data: true});
+             }
+           }
+           else  
+           {
+             alert("Fail to get your buckets.");
+             sendResponse({data: false});
+             return false;
+           }
+         }  
+       };
+      
+      req.send(params);
+    }    
+
+  }
+); 
+    
+function getUserClusters()
+{
+   var api_code = localStorage["extensions.gabuckets.apicode"];
+   
+   var req = new XMLHttpRequest();  
+   req.open('POST', 'https://btbuckets.com/services/list_buckets/uk/'+api_code, true);
+   req.setRequestHeader('Content-Type','application/x-www-form-urlencoded');
+   var params = "";   
+
+	req.onreadystatechange = function (aEvt) 
+   {  
+     if (req.readyState == 4) 
+     {  
+        if(req.status == 200) 
+        {
+          eval("var resp = " + req.responseText); 
+          if(typeof(resp.error_code) != "undefined")
+          {
+             alert("Fail to get your buckets: " + resp.error);
+             return false;             
+          }
+          else
+          {
+               var buckets_list = [];
+               for(i = 0; i < resp.length; i++)
+               {
+                  var addDefaultLabel = ""
+                  if(resp[i].default_cluster_id > 0)
+                  {
+                     addDefaultLabel = " (default)"
+                  }
+                  buckets_list.push({bucket_label:resp[i].bucket_name + addDefaultLabel, bucket_name:resp[i].friendly_name});
+               }  
+
+               return {data: buckets_list};
+          }
+        }
+        else  
+        {
+          alert("Fail to get your buckets.");
+          return false;
+        }
+      }  
+    };
+   
+   req.send(params);
+   
+}
+</script>
+</html>
+
