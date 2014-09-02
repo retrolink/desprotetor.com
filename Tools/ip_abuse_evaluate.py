@@ -4,7 +4,7 @@ import socket
 import collections
 import operator
 
-fname = "/home/ubuntu/flask_backend/log/user_agent.log"
+fname = "/home/ubuntu/sites/desprotetor.com/src/log/user_agent.log"
 limit = 30
 
 
