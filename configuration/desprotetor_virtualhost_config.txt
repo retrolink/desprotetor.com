@@ -7,7 +7,7 @@ Alias / /home/ubuntu/sites/desprotetor.com/static_frontend/
 WSGIDaemonProcess desprotetor.com processes=2 threads=15 display-name=%{GROUP} python-path=/home/ubuntu/sites/desprotetor.com/src/
 WSGIProcessGroup desprotetor.com
 
-<Directory /home/ubuntu/sites/chamadafe.com/src/candles/static>
+<Directory /home/ubuntu/sites/desprotetor.com/static_frontend>
 Require all granted
 </Directory>
 
