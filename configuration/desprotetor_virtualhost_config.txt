@@ -1,0 +1,21 @@
+<VirtualHost *:80>
+ServerName desprotetor.com
+ServerAlias *.desprotetor.com
+WSGIScriptAlias /deprotect /home/ubuntu/sites/desprotetor.com/src/dep.wsgi
+Alias / /home/ubuntu/sites/desprotetor.com/static_frontend/
+
+WSGIDaemonProcess desprotetor.com processes=2 threads=15 display-name=%{GROUP} python-path=/home/ubuntu/sites/desprotetor.com/src/
+WSGIProcessGroup desprotetor.com
+
+<Directory /home/ubuntu/sites/chamadafe.com/src/candles/static>
+Require all granted
+</Directory>
+
+<Directory /home/ubuntu/sites/desprotetor.com/src/>
+<Files dep.wsgi>
+    Require all granted
+</Files>
+</Directory>
+</VirtualHost>
+
+
