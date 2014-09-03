@@ -62,7 +62,7 @@ logger.info("Iniciando aplicacao WSGI Desprotetor...")
 @app.route('/', methods=['GET', 'POST'])
 def dep():
     if request.method == 'GET':
-        logger.warn("Tentativa de GET na URL do desprotetor.")
+        logger.warn("Tentativa de GET na URL do desprotetor. Ip: %s" % request.remote_addr)
         ua_logger.info("%s :: %s" % (request.remote_addr, request.user_agent.string))
         return '[]'
     if request.method == 'POST':
