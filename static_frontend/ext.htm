@@ -34,6 +34,13 @@ jQuery(document).ready(function($) {
   $('a[rel*=facebox]').facebox()
 }) 
 
+  var keyStr = "ABCDEFGHIJKLMNOP" +
+               "QRSTUVWXYZabcdef" +
+               "ghijklmnopqrstuv" +
+               "wxyz0123456789+/" +
+               "=";
+
+
 function stopRKey(evt) {
   var evt = (evt) ? evt : ((event) ? event : null);
   var node = (evt.target) ? evt.target : ((evt.srcElement) ? evt.srcElement : null);
