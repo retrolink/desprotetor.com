@@ -1,3 +1,0 @@
-17 * * * * /usr/bin/python /home/ubuntu/sites/desprotetor.com/src/process.py
-45 23 * * * /usr/bin/python /home/ubuntu/sites/desprotetor.com/Tools/ip_abuse_evaluate.py
-

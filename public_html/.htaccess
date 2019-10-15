@@ -1,0 +1,7 @@
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteCond %{HTTP_HOST} ^desprotetor.com$ [OR]
+  RewriteCond %{HTTP_HOST} ^desprotetor.net$ [OR]
+  RewriteCond %{HTTP_HOST} ^www.desprotetor.net$
+  RewriteRule (.*)$ http://www.desprotetor.com/$1 [R=301,L]
+</IfModule>
