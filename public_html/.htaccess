@@ -5,3 +5,9 @@
   RewriteCond %{HTTP_HOST} ^www.desprotetor.net$
   RewriteRule (.*)$ http://www.desprotetor.com/$1 [R=301,L]
 </IfModule>
+
+Header add Link '</static/style.css>; rel=preload; as=style'
+Header add Link '</static/jquery-1.9.1.min.js>; rel=preload; as=script'
+Header add Link '</static/facebox-simpletip.js>; rel=preload; as=script'
+Header add Link '</static/sprite.png>; rel=preload; as=image'
+Header add Link '</static/fundo.png>; rel=preload; as=image'
