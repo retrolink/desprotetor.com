@@ -36,7 +36,7 @@ fieldset {
 */
 
 body {
-  background: #F6F5FC url(http://desprotetor.net/static/fundo.png) repeat-x scroll 0 0;
+  background: #F6F5FC url(fundo.png) repeat-x scroll 0 0;
 }
 
 .tooltip{ 
@@ -100,7 +100,7 @@ border: 1px solid #6B6DDA;
 
 
 .clear {
-    background-image: url("http://desprotetor.net/static/sprite.png");
+    background-image: url("sprite.png");
     background-position: -316px -445px;
     background-repeat: no-repeat;
 
@@ -122,7 +122,7 @@ border: 1px solid #6B6DDA;
 }
 
 .mais {
-    background-image: url("http://desprotetor.net/static/sprite.png");
+    background-image: url("sprite.png");
     background-position: -600px -17px;
     background-repeat: no-repeat;
     height: 18px;
@@ -134,7 +134,7 @@ border: 1px solid #6B6DDA;
 }
 
 .menos {
-    background-image: url("http://desprotetor.net/static/sprite.png");
+    background-image: url("sprite.png");
     background-position: -600px -36px;
     background-repeat: no-repeat;
     height: 18px;
@@ -146,7 +146,7 @@ border: 1px solid #6B6DDA;
 }
 
 .submitButtonBackground {
-    background-image: url("http://desprotetor.net/static/sprite.png");
+    background-image: url("sprite.png");
     background-position: -316px -414px;
     background-repeat: no-repeat;
 
@@ -235,7 +235,7 @@ border: 1px solid #6B6DDA;
 }
 
 #monstro {
-  background-image: url("http://desprotetor.net/static/sprite.png");
+  background-image: url("sprite.png");
   background-position: 0 0;
   background-repeat: no-repeat;
 
@@ -248,7 +248,7 @@ border: 1px solid #6B6DDA;
 }
 
 .chrome {
-  background-image: url("http://desprotetor.net/static/sprite.png");
+  background-image: url("sprite.png");
   background-position: -417px -414px;
   background-repeat: no-repeat;
 
@@ -260,7 +260,7 @@ border: 1px solid #6B6DDA;
 }
 
 .correto {
-  background-image: url("http://desprotetor.net/static/sprite.png");
+  background-image: url("sprite.png");
   background-position: -600px 0;
   background-repeat: no-repeat;
 
@@ -276,7 +276,7 @@ border: 1px solid #6B6DDA;
 
 
 .erro {
-  background-image: url("http://desprotetor.net/static/sprite.png");
+  background-image: url("sprite.png");
   background-position: -600px -55px;
   background-repeat: no-repeat;
 
@@ -292,7 +292,7 @@ border: 1px solid #6B6DDA;
 
 
 .alert {
-  background-image: url("http://desprotetor.net/static/sprite.png");
+  background-image: url("sprite.png");
   background-position: -600px -73px;
   background-repeat: no-repeat;
 
@@ -317,7 +317,7 @@ border: 1px solid #6B6DDA;
 
 
 #logo {
-  background-image: url("http://desprotetor.net/static/sprite.png");
+  background-image: url("sprite.png");
   background-position: 0 -414px;
   background-repeat: no-repeat;
   

@@ -11,7 +11,7 @@
 		<meta name="robots" content="index,follow"/>
 		
 		<link rel="icon" type="image/png" href="favicon.png" />
-		<link type="text/css" rel="stylesheet" href="http://desprotetor.net/static/style.css" charset="utf-8" />
+		<link type="text/css" rel="stylesheet" href="static/style.css" charset="utf-8" />
 		
 	</head>
 	
@@ -96,14 +96,14 @@
 					
 					<div id="header" style="position:relative;padding-top:0px;left:-50px">
 						<div id="monstro" style="position:absolute; top:0px; left:0px;"></div>
-							<a id="logo" href="http://desprotetor.com">desprotetor.com</a>
+							<a id="logo" href="https://desprotetor.com">desprotetor.com</a>
 						</div>
 						<div style="z-index:299" class="ajuda"><span style="cursor: pointer;"><a style="color:#FFFFFF" href="mailto:contato_br@desprotetor.com">CONTATO</a></span> | <span id="ajuda" style="cursor: pointer;"><a href="#" style="color:#FFFFFF" onclick='jQuery.facebox({ div: "#help" });'>AJUDA</a></span>
 						<div style="left: 850px; position: absolute; top: 0;">
 							<div style="width:300px; height:600px; float: left; margin-bottom:20px;">
 								<div style="width:300px;text-align:left;margin: 0 0 10px 0">
 									<a href="https://www.contasturbo.com/?ref=24646" target="_blank" title="Clique e seja premium hoje mesmo!">
-										<img src="http://static3.contasturbo.com/pub/160p600_4.png"/>
+										<img src="https://www.contasturbo.com/static/pub/160p600_4.png"/>
 									</a>
 								</div>
 								<div class="fb-like-box" data-href="https://www.facebook.com/pages/Movimento-contra-Protetores-de-Link/217253128299320" data-width="300" data-height="600" data-colorscheme="light" data-show-faces="true" data-header="true" data-stream="false" data-show-border="true"></div>
@@ -137,10 +137,10 @@
 						<div id="bottombox">
 							Faça parte do Movimento Contra Protetores de Link:
 							<div style="position:absolute;top:20px;right:180px">
-								<a rel="nofollow" href="http://twitter.com/share" class="twitter-share-button" data-text="Protetores de link nao me incomodam mais." data-count="vertical" data-via="desprotetor_com">Tweet</a><script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
+								<a rel="nofollow" href="https://twitter.com/share" class="twitter-share-button" data-text="Protetores de link nao me incomodam mais." data-count="vertical" data-via="desprotetor_com">Tweet</a><script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
 							</div>
 							<div style="position:absolute;top:20px;right:30px">
-								<div class="fb-like" data-href="http://www.facebook.com/pages/Movimento-contra-Protetores-de-Link/217253128299320" data-send="true" data-layout="box_count" data-width="50" data-show-faces="false"></div>
+								<div class="fb-like" data-href="https://www.facebook.com/pages/Movimento-contra-Protetores-de-Link/217253128299320" data-send="true" data-layout="box_count" data-width="50" data-show-faces="false"></div>
 							</div>
 						</div>
 						
@@ -164,12 +164,12 @@
 		<br/><br/>
 		
 		<div  style="width:840px;">
-			<fb:comments-count href=http://desprotetor.com/></fb:comments-count> comentários
+			<fb:comments-count href=https://desprotetor.com/></fb:comments-count> comentários
 			<div class="fb-comments" data-href="http://desprotetor.com" data-width="840" data-num-posts="10" order_by="reverse_time"></div>
 		</div>
 		
-		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-		<script type="text/javascript" src="http://desprotetor.net/static/facebox-simpletip.js"></script>
+		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+		<script type="text/javascript" src="static/facebox-simpletip.js"></script>
 		
 		<script type="text/javascript">
 			$(document).ready(function() {
@@ -230,14 +230,14 @@
 			function formpost() {
 			
 				document.getElementById('deprotectedcontainer').style.display = 'block';
-				stri = '<div style="margin:0 auto"><img src="http://desprotetor.net/static/loadingbar.gif"></div>';
+				stri = '<div style="margin:0 auto"><img src="https://www.desprotetor.com/static/loadingbar.gif"></div>';
 				document.getElementById('deprotectedcontainer').innerHTML = stri;
 				
 				iddata = '#formdeprotectinput';
 				if ($(iddata).val().indexOf('Cole ') > -1) {var data = '';} else {var data = $(iddata).val();}
 				
 				$.post(
-					'http://retrolink.com.br/api/?d=1',
+					'https://retrolink.com.br/api/?d=1',
 					{url: data },
 					function(data) {
 						document.getElementById('deprotectedcontainer').innerHTML = data + '<br/>';
