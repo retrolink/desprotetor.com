@@ -4,6 +4,11 @@
   RewriteCond %{HTTP_HOST} ^desprotetor.net$ [OR]
   RewriteCond %{HTTP_HOST} ^www.desprotetor.net$
   RewriteRule (.*)$ http://www.desprotetor.com/$1 [R=301,L]
+  
+  # prevent requests in mail subdomain
+  RewriteCond %{HTTP_HOST} mail\.(([^\.]+)) [NC]
+  RewriteRule ^(.*)$ https://www.desprotetor.com/$1 [L,R=301]
+
 </IfModule>
 
 Header add Link '</static/style.css>; rel=preload; as=style'
